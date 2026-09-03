@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+nltk
+scikit-learn
+torch
+transformers
+datasets
+accelerate
+emoji==0.6.0

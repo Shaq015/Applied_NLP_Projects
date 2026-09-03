@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.json
+kaggle.json
+
+# Data
+data/
+dataset/
+datasets/
+*.tsv
+*.csv
+*.txt.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Models / experiment artifacts
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+bertweet_authorship_model/
+wandb/
+mlruns/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
