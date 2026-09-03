@@ -44,7 +44,3 @@ Main file:
 ```text
 probabilistic_spell_checker.py
 ```
-
-## Privacy
-
-Student ID and university email fields required by the original submission API were removed from the public version.
