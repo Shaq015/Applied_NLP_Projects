@@ -38,4 +38,4 @@ A compact collection of natural language processing projects spanning probabilis
 
 ## Data and Privacy
 
-Datasets are intentionally not bundled with the repository. Student identifiers, university email addresses, credentials, API keys, and access tokens are excluded from the public version.
+Datasets are intentionally not bundled with the repository. Credentials, API keys, and access tokens are excluded from the public version.
