@@ -751,24 +751,13 @@ class Spell_Checker:
 
 def normalize_text(text):
     """
-    Returns a normalized version of the specified text (string)[cite: 31].
+    Returns a normalized version of the specified text (string).
     Decisions:
     - Lowercasing to map semantic equivalents (e.g., "The" -> "the").
     - Keep alphabetic strings to support basic spell-checking and remove stray punctuation.
-    - Added padding <s> based on larger corpus hints[cite: 37], but omitted here to avoid breaking length limits unless explicit.
+    - Added padding <s> based on larger corpus hints, but omitted here to avoid breaking length limits unless explicit.
     """
     text = str(text).lower()
     text = re.sub(r'[^a-z\s]', '', text)
     return " ".join(text.split())
-
-
-def who_am_i():
-    """
-    Returns a dictionary with your name, id number, and email[cite: 32].
-    """
-    return {
-        'Name': 'Shaked Shabat',
-        'ID': '<REMOVED>',
-        'Email': '<REMOVED>'
-    }
 
