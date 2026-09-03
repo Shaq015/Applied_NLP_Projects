@@ -65,7 +65,3 @@ The tweet datasets are not included. Update the training and test paths in the n
 ```text
 authorship_attribution.ipynb
 ```
-
-## Privacy
-
-The student ID and university email required by the original submission API were removed from the public notebook. No API keys or access tokens are stored in this project.
